@@ -13,7 +13,7 @@ $(document).ready(function () {
         toggleMenu();
     });
 
-    $(document).click(function (event) {
+    $('.page').click(function (event) {
         if ($(event.target).closest("#burger").length)
             return;
         if ($(event.target).closest("#topnav").length)
